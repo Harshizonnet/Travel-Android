@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Travels_app"
+        tools:targetApi="31">
+        <activity
+            android:name=".updatebooking"
+            android:exported="false" />
+        <activity
+            android:name=".model.datahotel"
+            android:exported="false" />
+        <activity
+            android:name=".bookhotel"
+            android:exported="false" />
+        <activity
+            android:name=".details_retrive"
+            android:exported="false" />
+        <activity
+            android:name=".redrive_data"
+            android:exported="false" />
+        <activity
+            android:name=".Hotelgoa"
+            android:exported="false" />
+        <activity
+            android:name=".profilDetail"
+            android:exported="false" />
+        <activity
+            android:name=".HotelaDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
+        <activity
+            android:name=".fogetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".forgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Goa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Page"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".DetailsPageActivity" />
+        <activity
+            android:name=".acccount_creat"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".New_Registration"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

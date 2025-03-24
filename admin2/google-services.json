@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "91259677566",
+    "project_id": "new-travels",
+    "storage_bucket": "new-travels.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91259677566:android:b41fc711ead48ccc4f212f",
+        "android_client_info": {
+          "package_name": "com.example.admin2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQaQTHU5X9dW3i0x64lOjUxTLo3w76oEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91259677566:android:924c016f66416d094f212f",
+        "android_client_info": {
+          "package_name": "com.example.travels_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQaQTHU5X9dW3i0x64lOjUxTLo3w76oEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91259677566:android:9d4e63f6763f9e754f212f",
+        "android_client_info": {
+          "package_name": "com.example.travels_app24"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQaQTHU5X9dW3i0x64lOjUxTLo3w76oEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
