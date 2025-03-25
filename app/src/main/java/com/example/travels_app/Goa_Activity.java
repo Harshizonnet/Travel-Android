@@ -12,7 +12,7 @@ public class Goa_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_goa);
         imageView13=findViewById(R.id.imageView13);
 

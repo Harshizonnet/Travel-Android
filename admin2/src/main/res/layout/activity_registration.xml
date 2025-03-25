@@ -66,12 +66,13 @@
         android:id="@+id/loginnow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="99dp"
-        android:text="back to login"
-        android:textColor="@color/white"
-        android:textSize="16sp"
+        android:layout_marginBottom="96dp"
+        android:text="Back to login"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

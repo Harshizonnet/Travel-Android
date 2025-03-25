@@ -13,7 +13,6 @@
         <activity
             android:name=".bookinRdrive"
             android:exported="false" />
-        <activity android:name=".RegistrationA" />
         <activity
             android:name=".bookridrive"
             android:exported="false" />

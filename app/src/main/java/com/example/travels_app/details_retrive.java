@@ -30,7 +30,7 @@ public class details_retrive extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_details_retrive);
         imageView=findViewById(R.id.imageView2);
         textView=findViewById(R.id.editTextText);

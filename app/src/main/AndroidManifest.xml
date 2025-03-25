@@ -63,10 +63,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".DetailsPageActivity" />
-        <activity
-            android:name=".acccount_creat"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".New_Registration"
             android:exported="false">
@@ -81,7 +77,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
+        <activity
+            android:name=".acccount_creat"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

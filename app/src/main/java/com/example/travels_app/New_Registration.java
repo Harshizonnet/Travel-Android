@@ -31,7 +31,7 @@ public class New_Registration extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_new_registration);
         mAuth=FirebaseAuth.getInstance();
         editTextemail=findViewById(R.id.regemail);

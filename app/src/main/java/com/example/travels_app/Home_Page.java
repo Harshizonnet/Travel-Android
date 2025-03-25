@@ -35,7 +35,7 @@ public class Home_Page extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_home_page);
         textView8=findViewById(R.id.textView8);
         textView10=findViewById(R.id.textView10);

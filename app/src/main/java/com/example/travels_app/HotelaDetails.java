@@ -34,7 +34,7 @@ public class HotelaDetails extends AppCompatActivity implements OnClick {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_hotela_details);
         mrecyclerView=findViewById(R.id.hotelrec);
         uploads = new ArrayList<>();

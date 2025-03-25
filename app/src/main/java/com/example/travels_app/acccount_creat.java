@@ -14,7 +14,7 @@ public class acccount_creat extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_acccount_creat);
         textView3=findViewById(R.id.textView3);
         textView4=findViewById(R.id.textView4);

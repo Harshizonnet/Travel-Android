@@ -33,7 +33,7 @@ public class DetailsActivity extends AppCompatActivity implements OnClick {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        getSupportActionBar().hide();
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_details);
         mrecyclerView=findViewById(R.id.place_recycler);
         uploads = new ArrayList<>();
